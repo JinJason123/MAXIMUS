@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUTINIUS MAXIMUS - Memecoin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PUTINIUS MAXIMUS</h1>
+            <p>The most glorious memecoin of all time!</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#ai-meme">AI Meme Generator</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="#community">Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About PUTINIUS MAXIMUS</h2>
+            <p>PUTINIUS MAXIMUS is not just a memecoin, it is a movement. Powered by the people, for the memes.</p>
+        </div>
+    </section>
+
+    <section id="ai-meme" class="section">
+        <div class="container">
+            <h2>AI Meme Generator</h2>
+            <p>Generate hilarious memes with the power of AI! Simply enter your text below.</p>
+            <form id="memeForm">
+                <input type="text" id="memeText" placeholder="Enter your meme text">
+                <button type="submit">Generate Meme</button>
+            </form>
+            <div id="memeResult"></div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="section">
+        <div class="container">
+            <h2>Roadmap</h2>
+            <ul>
+                <li>Phase 1: Launch Memecoin</li>
+                <li>Phase 2: Meme Generator Integration</li>
+                <li>Phase 3: Airdrop and Community Events</li>
+                <li>Phase 4: Take Over the Internet</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="community" class="section">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <p>Follow us on <a href="https://x.com/putiniusmaximus">X (Twitter)</a> and join our growing memecoin family!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PUTINIUS MAXIMUS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('memeForm').onsubmit = function(e) {
+            e.preventDefault();
+            const text = document.getElementById('memeText').value;
+            document.getElementById('memeResult').innerHTML = `<h3>Your Meme:</h3><p>${text}</p>`;
+        }
+    </script>
+</body>
+</html>
