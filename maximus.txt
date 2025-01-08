@@ -25,14 +25,18 @@
     <section id="about" class="section">
         <div class="container">
             <h2>About PUTINIUS MAXIMUS</h2>
-            <p>PUTINIUS MAXIMUS is not just a memecoin, it is a movement. Powered by the people, for the memes.</p>
+            <p>PUTINIUS MAXIMUS is not just a memecoin, it’s a revolution. Inspired by the mightiest of internet forces, this coin symbolizes the strength of memes and the power of the people. </p>
+            <p>From dank memes to global domination, PUTINIUS MAXIMUS is here to conquer the crypto world one meme at a time.</p>
         </div>
     </section>
 
     <section id="ai-meme" class="section">
         <div class="container">
             <h2>AI Meme Generator</h2>
-            <p>Generate hilarious memes with the power of AI! Simply enter your text below.</p>
+            <p>Welcome to the PUTINIUS MAXIMUS AI Meme Generator! </p>
+            <p>🔥 Create memes on the fly – because nothing says decentralized power like algorithm-generated humor.</p>
+            <p>Simply type your funniest idea below, and let our AI meme forge do the rest.</p>
+            <p>Prepare for glory, laughter, and internet points.</p>
             <form id="memeForm">
                 <input type="text" id="memeText" placeholder="Enter your meme text">
                 <button type="submit">Generate Meme</button>
@@ -45,10 +49,18 @@
         <div class="container">
             <h2>Roadmap</h2>
             <ul>
-                <li>Phase 1: Launch Memecoin</li>
-                <li>Phase 2: Meme Generator Integration</li>
-                <li>Phase 3: Airdrop and Community Events</li>
-                <li>Phase 4: Take Over the Internet</li>
+                <li><strong>Phase 1:</strong> Meme Invasion</li>
+                <li>Launch PUTINIUS MAXIMUS coin</li>
+                <li>Engage influencers and memelords</li>
+                <li><strong>Phase 2:</strong> Meme Generator Integration</li>
+                <li>Launch AI Meme Generator</li>
+                <li>Community meme competitions</li>
+                <li><strong>Phase 3:</strong> Airdrop & Community Events</li>
+                <li>Airdrop to the most loyal meme warriors</li>
+                <li>Host virtual memecoin battles</li>
+                <li><strong>Phase 4:</strong> Total Internet Domination</li>
+                <li>Expand to all corners of the internet</li>
+                <li>Cement PUTINIUS MAXIMUS as the memecoin king</li>
             </ul>
         </div>
     </section>
@@ -56,13 +68,17 @@
     <section id="community" class="section">
         <div class="container">
             <h2>Join Our Community</h2>
-            <p>Follow us on <a href="https://x.com/putiniusmaximus">X (Twitter)</a> and join our growing memecoin family!</p>
+            <p>Join the growing army of meme warriors!</p>
+            <p>💬 Engage with us on X (Twitter)</p>
+            <p>🚀 Participate in airdrops and community battles</p>
+            <p>🎉 Become part of the ultimate meme revolution!</p>
+            <p>Follow us on <a href="https://x.com/putiniusmaximus">X (Twitter)</a> for updates, memes, and chaos!</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 PUTINIUS MAXIMUS. All rights reserved.</p>
+            <p>&copy; 2025 PUTINIUS MAXIMUS. All rights reserved – but memes are for the people.</p>
         </div>
     </footer>
 
